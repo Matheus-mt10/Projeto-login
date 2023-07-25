@@ -2,9 +2,11 @@
 
 /*PALETA DE CORES
 
-    Azul escuro: #0A21A6
-    Azul Claro: #7292F2
-    Lilás: #F2ACB9
+    Azul Marinho: #1D1A73
+    Azul Escuro: #3E2EA6
+    Azul Claro: #4A88D9
+    Azul BB: #72F2F2
+    Rosa roxeado: #EF44F2
     
 */
 
@@ -24,17 +26,3 @@ Telas Grandes: 1201px ou mais
     margin: 0px;
 }
 
-html, body{
-
-    background-color: #7292F2;
-
-}
-
-section#login{
-
-    background-color: white;
-}
-
-div#imagem{
-    background-color: lightgray;
-}
