@@ -6,7 +6,7 @@
     Azul Escuro: #3E2EA6
     Azul Claro: #4A88D9
     Azul BB: #72F2F2
-    Rosa roxeado: #EF44F2
+    Rosa roxeado: #a113a3 
     
 */
 
@@ -24,5 +24,47 @@ Telas Grandes: 1201px ou mais
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0px;
     margin: 0px;
+}
+
+body,html{
+    background-color: #a113a3 ;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+section#login{
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+div#imagem{
+    background: url(../imagens/predios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+}
+
+div#formulario > h1{
+    text-align: center;
+    padding-top: 5px;
+    
+}
+
+div#formulario > p {
+    text-align: justify;
+    padding: 13px;
 }
 
