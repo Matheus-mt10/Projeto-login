@@ -9,6 +9,11 @@ Telas Grandes: 1201px ou mais
 */
 
 @media screen and (min-width: 769px) and (max-width: 1024px )  {
+
+    body{
+        background: linear-gradient(180deg, #A113A3 0%, #3E2EA6 0.01%, #A113A3 68.75%);
+    }
+
     section#login{
         width: 90vw;
     }
@@ -29,6 +34,11 @@ Telas Grandes: 1201px ou mais
 }
 
 @media screen and (min-width: 1025px)  {
+
+    body{
+        background: linear-gradient(180deg, #A113A3 0%, #3E2EA6 0.01%, #A113A3 68.75%);
+    }
+
     section#login{
         width: 950px;
     }
